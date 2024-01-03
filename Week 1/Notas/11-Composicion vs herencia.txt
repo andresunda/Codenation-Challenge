@@ -1,0 +1,30 @@
+11-Composicion vs herencia
+
+Son funciones que ayudan a compartir codigo y funcionalidad
+
+Composición en React:
+
+Es construir componentes más complejos combinando componentes más simples.
+En React, los componentes pueden ser reutilizados e integrados para formar jerarquías más grandes.
+Se logra colocando un componente dentro de otro mediante el uso de las etiquetas de JSX.
+
+Ejemplo:
+
+function Card(props) {
+  return (
+    <div className="card">
+      {props.children}
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <Card>
+      <h2>Título de la tarjeta</h2>
+      <p>Contenido de la tarjeta</p>
+    </Card>
+  );
+}
+
+

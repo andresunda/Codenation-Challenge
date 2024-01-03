@@ -1,0 +1,8 @@
+9-Formularios
+
+-Comunmente utilizamos el hook useState para rastrear los valores de ampos de los formularios
+-Utilizamos el onChange para  actualizar el estado cuando los usuarios introducen datos en los campos del formulario.
+-Comunmente se pone por defecto el nombre de handleInputChange al boton que hara la funcion de sincronizar los
+valores que fueron introducidos por el usuario en los campos
+-Utilizamos el onSubmit, onClick para manejar envios de formularios y asi mismo comunmente con el nombre de "handleSubmit"
+ 

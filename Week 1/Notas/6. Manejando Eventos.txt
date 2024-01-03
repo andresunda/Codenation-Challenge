@@ -1,0 +1,17 @@
+6. Manejando Eventos
+
+Con JSX pasas una función como el manejador del evento, en vez de un string.
+<button onClick={activateLasers}>
+  Activate Lasers
+</button>
+
+"e" es un evento sintético. React define estos eventos sintéticos acorde a las especificaciones W3C, 
+para que no tengas que preocuparte por la compatibilidad entre distintos navegadores.
+
+
+Dentro de un bucle es muy común querer pasar un parámetro extra a un manejador de eventos. 
+Por ejemplo, si id es el ID de una fila, cualquiera de los códigos a continuación podría funcionar:
+
+<button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>
+<button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
+Las dos líneas anteriores son equivalentes, y utilizan funciones flecha y Function.prototype.bind respectivamente.

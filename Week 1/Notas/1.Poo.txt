@@ -1,0 +1,14 @@
+la POO organiza el código en objetos que contienen datos y funciones, 
+utiliza clases como plantillas para nuevos crear objetos, permite la herencia 
+para la reutilización de código, utiliza el polimorfismo para tratar 
+objetos de manera uniforme y fomenta la abstracción para simplificar 
+la complejidad del sistema. Además, el encapsulamiento controla el acceso a los datos, 
+definiendo si son públicos, privados u otros.
+
+
+Ejemplo:
+Clase coche:
+Funciones: Parking, Reverse, Drive
+Atributos: Color, Cilindraje, Año, Transmision
+
+Asi podemos heredar todo esto hacia otro tipo de objeto que se llamen: Mazda Y Honda
