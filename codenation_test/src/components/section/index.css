@@ -1,0 +1,19 @@
+.section-component-portrait {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente el contenido */
+    align-items: center;
+    /* Centra verticalmente el contenido */
+}
+
+.section-component-info {
+    background-color: #f0f0f0;
+}
+
+.content {
+    padding-left: 1rem;
+    /* Equivalente a px-4: padding horizontal de 1rem */
+    padding-right: 1rem;
+    /* Equivalente a flex-col: dirección de columna */
+}

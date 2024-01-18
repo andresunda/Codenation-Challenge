@@ -1,0 +1,37 @@
+.box-list {
+    width: 250px;
+    /*background-color: lightsalmon;*/
+}
+
+
+.text-codenation {
+    flex-grow: 1;
+    padding-left: 5%;
+}
+
+/*------------------------------Mostrar por defecto en tamaños de pantalla extra pequeños (xs)---------------------*/
+.box-list-device {
+    display: block;
+    padding-right: 10%;
+}
+
+/*----------------------------Media Query para tamaños de pantalla extra pequeños (xs)--------------------------*/
+@media (max-width: 575.98px) {
+    .box-list-device {
+        display: none;
+    }
+}
+
+
+/*------------------------------Mostrar por defecto en tamaños de pantalla extra pequeños (xs)---------------------*/
+.icon-list-device {
+    display: block;
+}
+
+/*----------------------------Media Query para tamaños de pantalla extra pequeños (sm y superiores)-----------------*/
+/* Media Query para tamaños de pantalla pequeños (sm) y superiores */
+@media (min-width: 576px) {
+    .icon-list-device {
+        display: none;
+    }
+}

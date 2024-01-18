@@ -1,0 +1,14 @@
+/*Styles basics only for set up a container */
+.background-container {
+    background-color: #e9e9e9;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/*.section-content {
+    /*padding-top: 64px;*/
+/* Altura del AppBar fijo, ajusta según sea necesario */

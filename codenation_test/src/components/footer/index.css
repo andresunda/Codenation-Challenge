@@ -1,0 +1,79 @@
+/*--------------Background and space of the footer---------------*/
+.footer-style {
+    background-color: #41464b;
+    padding: 20px;
+    padding-top: 5;
+}
+
+/*----------------Background and space of the second footer-------*/
+.footer-copyright {
+    background-color: #313538;
+    padding: 20px;
+}
+
+/*----------------Styles of codenation logo---------------------*/
+.img-container-logo {
+    text-align: center;
+    /* Elimina el espacio debajo de la imagen */
+    display: block;
+    /* Centra horizontalmente */
+    margin: 0 auto;
+    margin-top: 0;
+    max-width: 300px;
+}
+
+/*---------------Styles for the information and contact-----------------------*/
+.container-info {
+    text-align: right;
+    padding-right: 40%;
+    color: white;
+}
+
+.info-codenation {
+    text-align: center;
+    color: white;
+}
+
+.container-copyright {
+    text-align: center;
+    color: white;
+}
+
+/*----------------------------------------------------------------------*/
+
+
+
+/*----------------------Styles of Icons of Codenation's social media--------------------*/
+.custom-icon-face {
+    border-radius: 25%;
+    font-size: 50px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.custom-icon-face:hover,
+.custom-icon-face:focus {
+    background-color: green;
+}
+
+.icon-face-align {
+    text-align: right;
+}
+
+.icon-linkedin-align {
+    text-align: left;
+}
+
+.custom-icon-linkedin {
+    border-radius: 25%;
+    font-size: 50px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.custom-icon-linkedin:hover,
+.custom-icon-linkedin:focus {
+    background-color: green;
+}
+
+/*------------------------------------------------------------------------------------*/
